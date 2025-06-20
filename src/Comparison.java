@@ -20,6 +20,9 @@ public class Comparison {
 
         // when you only need to check value,use equals method
         System.out.println(c.equals(d));
+//      System.out.println(a[0]); we cannot do this in strings.
+        // we have to use a method .charAt
+        System.out.println(a.charAt(0));
 
     }
 }
